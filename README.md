@@ -6,6 +6,36 @@ Agendamento de Serviços em Barbearia
 
 First, run the development server:
 
+`npx create-next-app@latest`
+
+```
+What is your project named? my-app
+*(Qual é o nome do seu projeto?) my-app*
+
+Would you like to use TypeScript? No / Yes = Yes
+*(Você gostaria de usar TypeScript?) Não / Sim*
+
+Would you like to use ESLint? No / Yes = Yes
+*(Você gostaria de usar ESLint?) Não / Sim*
+
+Would you like to use Tailwind CSS? No / Yes = Yes
+*(Você gostaria de usar Tailwind CSS?) Não / Sim*
+
+Would you like to use `src/` directory? No / Yes = No
+*(Você gostaria de usar o diretório `src/`?) Não / Sim*
+
+Would you like to use App Router? (recommended) No / Yes = Yes
+*(Você gostaria de usar o App Router?) [Recomendado] Não / Sim*
+
+Would you like to customize the default import alias? No / Yes = No
+*(Você gostaria de personalizar o alias de importação padrão?) Não / Sim*
+
+What import alias would you like configured? @/*
+*(Qual alias de importação você gostaria de configurar?) @/*
+```
+
+
+
 ```bash
 npm run dev
 # or
