@@ -35,7 +35,6 @@ What import alias would you like configured? @/*
 ```
 
 
-
 ```bash
 npm run dev
 # or
