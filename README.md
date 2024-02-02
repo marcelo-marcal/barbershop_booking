@@ -90,3 +90,21 @@ datasource db {
 
 ### Reinicie o Servidor:
 `yarn dev`
+
+
+### Prisma & Supabase
+##### - Configuração do Supabase
+`https://supabase.com/`
+    - Criar uma conta e uma organização
+    - Ir para *Project Settings → Database* e copiar ***connection string***
+    - Colar *connection string* no `.env` com a sua senha
+  
+`npx prisma db push`
+
+### API Key do Google
+
+Acessar [Google Developers Console](https://console.cloud.google.com/) e criar um projeto.  Ao criá-lo, selecioná-lo e ir em ***Menu → Credenciais → ID do Cliente OAuth***. Configurar as telas de consentimento e colocar a seguinte URL como ***URL de Redirecionamento:***
+
+[`http://localhost:3000/api/auth/callback/google`](http://localhost:3000/api/auth/callback/google)
+
+Após isso, pegar as chaves geradas e colocar no `.env` do projeto.
